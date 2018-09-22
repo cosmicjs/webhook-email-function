@@ -1,6 +1,6 @@
 {
   "title": "Webhook Email Function",
-  "description": "Send emails via webhook using SendGrid. Just add your API keys.  Add <code>SENDGRID_API_KEY</code>, <code>TO</code>, and <code>FROM</code> environment variable below. After deployment, add the endpooint to Your Bucket > Settings > Webhooks",
+  "description": "Send emails via webhook using SendGrid.  Add <code>SENDGRID_API_KEY</code>, <code>TO</code>, and <code>FROM</code> environment variable below. After deployment, add the endpooint to Your Bucket > Settings > Webhooks",
   "image_url": "https://cosmic-s3.imgix.net/ed58d700-7b2c-11e8-9d6b-252d8b978aea-SendGrid-Logo.png",
   "env_vars": [
     {
