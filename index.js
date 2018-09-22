@@ -3,11 +3,11 @@ module.exports.handler = (event, context, callback) => {
   const sgMail = require('@sendgrid/mail');
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
   const body = JSON.parse(event.body)
-  const to = body.to;
-  const from = body.from;
-  const subject = body.subject;
-  const html_body = body.html_body;
-  const text_body = body.text_body;
+  const to = process.env.to;
+  const from = process.env.to;
+  const subject = "A new post was published: " + body.data.title;
+  const html_body = body.data.content;
+  const text_body = body.data.title;
   const msg = {
     to: to,
     from: from,
