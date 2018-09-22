@@ -6,6 +6,14 @@
     {
       "key": "SENDGRID_API_KEY",
       "value": ""
+    },
+    {
+      "key": "TO",
+      "value": ""
+    },
+    {
+      "key": "FROM",
+      "value": ""
     }
   ],
   "routes": [
