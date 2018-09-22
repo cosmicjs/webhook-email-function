@@ -1,4 +1,4 @@
-# SendGrid Email Function
+# Webhook Email Function
 <img src="https://cosmic-s3.imgix.net/ed58d700-7b2c-11e8-9d6b-252d8b978aea-SendGrid-Logo.png?w=1000" width="300" />
 
 Cosmic Function that enables you to send emails using [SendGrid](https://sendgrid.com).
